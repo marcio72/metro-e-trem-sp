@@ -27,10 +27,11 @@ jobs:
         with:
           gradle-version: "9.3.1"
 
-      # O build.gradle.kts do AI Studio espera um debug.keystore na raiz do projeto
-      - name: Gerar keystore de debug
+      # O debug.keystore fica versionado no repo: assinatura fixa permite atualizar o app por cima.
+      # (Só gera um novo se, por algum motivo, o arquivo sumir.)
+      - name: Conferir keystore de debug
         run: |
-          keytool -genkeypair -noprompt -keystore debug.keystore -storepass android \
+          [ -f debug.keystore ] || keytool -genkeypair -noprompt -keystore debug.keystore -storepass android \
             -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 \
             -dname "CN=Android Debug,O=Android,C=US"
 

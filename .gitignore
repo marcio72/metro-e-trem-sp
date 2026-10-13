@@ -15,4 +15,5 @@
 .cxx
 local.properties
 .env
-debug.keystore
+
+# debug.keystore é versionado de propósito (assinatura estável dos builds de teste)
