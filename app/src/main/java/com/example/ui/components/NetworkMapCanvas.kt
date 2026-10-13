@@ -41,6 +41,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathEffect
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.unit.IntSize
@@ -72,6 +73,7 @@ fun NetworkMapCanvas(
   var canvasSize by remember { mutableStateOf(IntSize.Zero) }
   val labelColor = MaterialTheme.colorScheme.onBackground
   val labelShadow = MaterialTheme.colorScheme.background
+  val isDarkBackground = MaterialTheme.colorScheme.background.luminance() < 0.5f
   val textPaint = remember {
     Paint().apply {
       isAntiAlias = true
@@ -189,10 +191,23 @@ fun NetworkMapCanvas(
             val a = pts[i]
             val b = pts[i + 1]
             val operational = isOperationalSegment(line.id, a.id, b.id)
+            val start = geoToCanvas(a.lat, a.lon, canvasWidth, canvasHeight)
+            val end = geoToCanvas(b.lat, b.lon, canvasWidth, canvasHeight)
+            // No tema escuro, linhas escuras (12-Safira, Expresso Aeroporto) ganham contorno claro
+            if (isDarkBackground && line.composeColor.luminance() < 0.08f) {
+              drawLine(
+                color = Color.White.copy(alpha = 0.55f),
+                start = start,
+                end = end,
+                strokeWidth = (if (operational) lineWidth else lineWidth * 0.7f) + 3f,
+                cap = StrokeCap.Round,
+                pathEffect = if (operational) null else dashed
+              )
+            }
             drawLine(
               color = if (operational) line.composeColor else line.composeColor.copy(alpha = 0.45f),
-              start = geoToCanvas(a.lat, a.lon, canvasWidth, canvasHeight),
-              end = geoToCanvas(b.lat, b.lon, canvasWidth, canvasHeight),
+              start = start,
+              end = end,
               strokeWidth = if (operational) lineWidth else lineWidth * 0.7f,
               cap = StrokeCap.Round,
               pathEffect = if (operational) null else dashed

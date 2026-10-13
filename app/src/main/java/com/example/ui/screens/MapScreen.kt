@@ -44,6 +44,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.data.model.TransitStation
 import com.example.ui.TransitViewModel
+import com.example.ui.theme.contentColorFor
 import com.example.ui.components.LineBadge
 import com.example.ui.components.NetworkMapCanvas
 import com.example.ui.components.StationDetailBottomSheet
@@ -123,7 +124,7 @@ fun MapScreen(
           shape = RoundedCornerShape(20.dp),
           colors = FilterChipDefaults.filterChipColors(
             selectedContainerColor = line.composeColor,
-            selectedLabelColor = if (line.number == "4" || line.number == "15") Color.Black else Color.White
+            selectedLabelColor = contentColorFor(line.composeColor)
           ),
           modifier = Modifier.testTag("map_filter_${line.id}")
         )

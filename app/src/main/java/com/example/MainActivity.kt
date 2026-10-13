@@ -3,6 +3,7 @@ package com.example
 import android.Manifest
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -13,6 +14,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AltRoute
+import androidx.compose.material.icons.filled.BrightnessAuto
+import androidx.compose.material.icons.filled.DarkMode
+import androidx.compose.material.icons.filled.LightMode
 import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.NearMe
 import androidx.compose.material.icons.filled.Train
@@ -23,6 +27,7 @@ import androidx.compose.material.icons.outlined.Train
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -30,7 +35,11 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -46,6 +55,8 @@ import com.example.ui.screens.MapScreen
 import com.example.ui.screens.NearestStationsScreen
 import com.example.ui.screens.RoutePlannerScreen
 import com.example.ui.theme.MyApplicationTheme
+import com.example.ui.theme.ThemeMode
+import com.example.ui.theme.ThemePreferences
 
 enum class AppNavTab(
   val title: String,
@@ -69,7 +80,18 @@ class MainActivity : ComponentActivity() {
     enableEdgeToEdge()
 
     setContent {
-      MyApplicationTheme {
+      var themeMode by remember { mutableStateOf(ThemePreferences.load(this)) }
+      val darkTheme = themeMode.isDark(isSystemInDarkTheme())
+
+      // Ícones da barra de status/navegação acompanham o tema escolhido, não só o do sistema
+      DisposableEffect(darkTheme) {
+        val style = if (darkTheme) SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
+        else SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT)
+        enableEdgeToEdge(statusBarStyle = style, navigationBarStyle = style)
+        onDispose { }
+      }
+
+      MyApplicationTheme(darkTheme = darkTheme) {
         var selectedTabIndex by rememberSaveable { mutableIntStateOf(0) }
 
         // Location permission launcher
@@ -102,6 +124,24 @@ class MainActivity : ComponentActivity() {
                   fontWeight = FontWeight.ExtraBold,
                   fontSize = 18.sp
                 )
+              },
+              actions = {
+                IconButton(
+                  onClick = {
+                    themeMode = themeMode.next()
+                    ThemePreferences.save(this@MainActivity, themeMode)
+                  },
+                  modifier = Modifier.testTag("btn_theme")
+                ) {
+                  Icon(
+                    imageVector = when (themeMode) {
+                      ThemeMode.SYSTEM -> Icons.Filled.BrightnessAuto
+                      ThemeMode.LIGHT -> Icons.Filled.LightMode
+                      ThemeMode.DARK -> Icons.Filled.DarkMode
+                    },
+                    contentDescription = "${themeMode.label} (toque para trocar)"
+                  )
+                }
               },
               colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                 containerColor = MaterialTheme.colorScheme.surface,

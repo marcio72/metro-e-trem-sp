@@ -44,6 +44,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.data.model.TransitStation
 import com.example.ui.TransitViewModel
+import com.example.ui.theme.contentColorFor
 import com.example.ui.components.CurrentLocationHeader
 import com.example.ui.components.LocationPresetDialog
 import com.example.ui.components.StationCard
@@ -174,7 +175,7 @@ fun NearestStationsScreen(
           },
           colors = FilterChipDefaults.filterChipColors(
             selectedContainerColor = line.composeColor,
-            selectedLabelColor = if (line.number == "4" || line.number == "15") Color.Black else Color.White
+            selectedLabelColor = contentColorFor(line.composeColor)
           ),
           shape = RoundedCornerShape(8.dp),
           modifier = Modifier.testTag("filter_chip_${line.id}")

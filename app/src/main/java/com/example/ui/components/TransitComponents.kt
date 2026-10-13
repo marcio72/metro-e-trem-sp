@@ -59,6 +59,7 @@ import com.example.data.model.TransitLine
 import com.example.data.model.TransitStation
 import com.example.data.model.UserLocationState
 import com.example.data.repository.TransitRepository
+import com.example.ui.theme.contentColorFor
 
 @Composable
 fun LineBadge(
@@ -67,11 +68,7 @@ fun LineBadge(
   compact: Boolean = false
 ) {
   val bgColor = line.composeColor
-  val textColor = if (line.number == "4" || line.number == "15" || line.colorHex.contains("FED304", true)) {
-    Color.Black
-  } else {
-    Color.White
-  }
+  val textColor = contentColorFor(bgColor)
 
   Surface(
     modifier = modifier,
