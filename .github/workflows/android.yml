@@ -1,0 +1,62 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v3
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+
+      # O build.gradle.kts do AI Studio espera um debug.keystore na raiz do projeto
+      - name: Gerar keystore de debug
+        run: |
+          keytool -genkeypair -noprompt -keystore debug.keystore -storepass android \
+            -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
+
+      - name: Testes unitários
+        run: gradle :app:testDebugUnitTest --no-configuration-cache --stacktrace
+
+      - name: Gerar APK
+        run: gradle :app:assembleDebug --no-configuration-cache --stacktrace
+
+      - name: Renomear APK
+        run: cp app/build/outputs/apk/debug/app-debug.apk metro-e-trem-sp-${{ github.run_number }}.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: metro-e-trem-sp-apk
+          path: metro-e-trem-sp-*.apk
+
+      # Publica como Release para baixar fácil pelo celular
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Build ${{ github.run_number }}
+          files: metro-e-trem-sp-*.apk
+          prerelease: true
+
+      - name: Relatório dos testes (se falhar)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: app/build/reports/tests/

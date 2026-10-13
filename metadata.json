@@ -1,0 +1,6 @@
+{
+  "name": "Metrô e Trem SP",
+  "description": "Localizador de estações mais próximas de metrô e trem em São Paulo e mapa interativo da malha metropolitana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

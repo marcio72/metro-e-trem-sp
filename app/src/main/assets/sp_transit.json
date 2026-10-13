@@ -1,0 +1,2877 @@
+{
+  "version": 2,
+  "updated": "2026-10-13",
+  "source": "Conferido com o Mapa do Transporte Metropolitano (jul/2026)",
+  "lines": [
+    {
+      "id": "linha-1",
+      "slug": "linha-1-azul",
+      "name": "Azul",
+      "number": "1",
+      "colour": "#0455A1",
+      "mode": "subway",
+      "operator": "Metrô SP",
+      "status": "operational",
+      "stations": [
+        "jabaquara-comite-paralimpico-brasileiro",
+        "conceicao",
+        "sao-judas",
+        "saude-ultrafarma",
+        "praca-da-arvore",
+        "santa-cruz",
+        "vila-mariana",
+        "ana-rosa",
+        "paraiso",
+        "vergueiro-sebrae",
+        "sao-joaquim",
+        "japao-liberdade",
+        "se",
+        "sao-bento",
+        "luz",
+        "tiradentes",
+        "armenia",
+        "portuguesa-tiete",
+        "carandiru",
+        "santana",
+        "jardim-sao-paulo-ayrton-senna",
+        "parada-inglesa",
+        "tucuruvi"
+      ]
+    },
+    {
+      "id": "linha-2",
+      "slug": "linha-2-verde",
+      "name": "Verde",
+      "number": "2",
+      "colour": "#007E5E",
+      "mode": "subway",
+      "operator": "Metrô SP",
+      "status": "operational",
+      "stations": [
+        "vila-madalena",
+        "santuario-nossa-senhora-de-fatima-sumare",
+        "clinicas",
+        "consolacao",
+        "trianon-masp",
+        "brigadeiro",
+        "paraiso",
+        "ana-rosa",
+        "chacara-klabin",
+        "santos-imigrantes",
+        "alto-do-ipiranga",
+        "sacoma",
+        "tamanduatei",
+        "vila-prudente",
+        "analia-franco",
+        "aricanduva",
+        "penha-lojas-besni"
+      ]
+    },
+    {
+      "id": "linha-3",
+      "slug": "linha-3-vermelha",
+      "name": "Vermelha",
+      "number": "3",
+      "colour": "#EE372F",
+      "mode": "subway",
+      "operator": "Metrô SP",
+      "status": "operational",
+      "stations": [
+        "palmeiras-barra-funda",
+        "marechal-deodoro",
+        "santa-cecilia",
+        "republica",
+        "anhangabau",
+        "se",
+        "pedro-ii",
+        "bras",
+        "bresser-mooca",
+        "belem",
+        "tatuape",
+        "carrao-assai-atacadista",
+        "penha-lojas-besni",
+        "vila-matilde",
+        "guilhermina-esperanca",
+        "patriarca-vila-re",
+        "artur-alvim",
+        "corinthians-itaquera"
+      ]
+    },
+    {
+      "id": "linha-4",
+      "slug": "linha-4-amarela",
+      "name": "Amarela",
+      "number": "4",
+      "colour": "#FED304",
+      "mode": "subway",
+      "operator": "Motiva",
+      "status": "operational",
+      "stations": [
+        "luz",
+        "republica",
+        "higienopolis-mackenzie",
+        "paulista",
+        "oscar-freire",
+        "fradique-coutinho",
+        "faria-lima-pagbank",
+        "pinheiros",
+        "butanta",
+        "sao-paulo-morumbi",
+        "vila-sonia-professora-elizabeth-tenreiro"
+      ]
+    },
+    {
+      "id": "linha-5",
+      "slug": "linha-5-lilas",
+      "name": "Lilás",
+      "number": "5",
+      "colour": "#9B3894",
+      "mode": "subway",
+      "operator": "Motiva",
+      "status": "operational",
+      "stations": [
+        "capao-redondo",
+        "campo-limpo",
+        "vila-das-belezas",
+        "giovanni-gronchi",
+        "santo-amaro",
+        "largo-treze",
+        "adolfo-pinheiro-unisa",
+        "alto-da-boa-vista",
+        "borba-gato",
+        "brooklin",
+        "campo-belo",
+        "eucaliptos",
+        "moema",
+        "aacd-servidor",
+        "estacao-hospital-sao-paulo",
+        "santa-cruz",
+        "chacara-klabin"
+      ]
+    },
+    {
+      "id": "linha-6",
+      "slug": "linha-6-laranja",
+      "name": "Laranja",
+      "number": "6",
+      "colour": "#FF6600",
+      "mode": "subway",
+      "operator": "Linha Uni",
+      "status": "partial",
+      "stations": [
+        "brasilandia",
+        "itaberaba-hospital-vila-penteado",
+        "joao-paulo-i",
+        "freguesia-do-o",
+        "santa-marina",
+        "agua-branca",
+        "sesc-pompeia",
+        "perdizes",
+        "puc-cardoso-de-almeida",
+        "higienopolis-mackenzie",
+        "14-bis-saracura",
+        "bela-vista",
+        "sao-joaquim"
+      ]
+    },
+    {
+      "id": "linha-7",
+      "slug": "linha-7-rubi",
+      "name": "Rubi",
+      "number": "7",
+      "colour": "#CA016B",
+      "mode": "commuter_rail",
+      "operator": "TIC Trens",
+      "status": "operational",
+      "stations": [
+        "jundiai",
+        "varzea-paulista",
+        "campo-limpo-paulista",
+        "botujuru",
+        "francisco-morato",
+        "baltazar-fidelis",
+        "franco-da-rocha",
+        "caieiras",
+        "perus",
+        "vila-aurora",
+        "jaragua",
+        "vila-clarice",
+        "pirituba",
+        "piqueri",
+        "lapa",
+        "agua-branca",
+        "palmeiras-barra-funda"
+      ]
+    },
+    {
+      "id": "linha-8",
+      "slug": "linha-8-diamante",
+      "name": "Diamante",
+      "number": "8",
+      "colour": "#97A098",
+      "mode": "commuter_rail",
+      "operator": "ViaMobilidade",
+      "status": "operational",
+      "stations": [
+        "amador-bueno",
+        "santa-rita",
+        "itapevi",
+        "engenheiro-cardoso",
+        "sagrado-coracao",
+        "jandira",
+        "jardim-silveira-leo-madeiras",
+        "jardim-belval",
+        "barueri",
+        "antonio-joao",
+        "santa-terezinha",
+        "carapicuiba",
+        "general-miguel-costa",
+        "quitauna",
+        "comandante-sampaio",
+        "osasco",
+        "presidente-altino",
+        "imperatriz-leopoldina",
+        "domingos-de-moraes",
+        "lapa-senac",
+        "palmeiras-barra-funda",
+        "julio-prestes"
+      ]
+    },
+    {
+      "id": "linha-9",
+      "slug": "linha-9-esmeralda",
+      "name": "Esmeralda",
+      "number": "9",
+      "colour": "#01A9A7",
+      "mode": "commuter_rail",
+      "operator": "ViaMobilidade",
+      "status": "operational",
+      "stations": [
+        "osasco",
+        "presidente-altino",
+        "ceasa",
+        "villa-lobos-jaguare",
+        "cidade-universitaria",
+        "pinheiros",
+        "hebraica-reboucas",
+        "cidade-jardim",
+        "vila-olimpia",
+        "berrini-casas-bahia",
+        "morumbi-claro",
+        "granja-julieta",
+        "joao-dias",
+        "santo-amaro",
+        "socorro",
+        "jurubatuba-senac",
+        "autodromo",
+        "primavera-interlagos",
+        "grajau",
+        "mendes-vila-natal",
+        "varginha"
+      ]
+    },
+    {
+      "id": "linha-10",
+      "slug": "linha-10-turquesa",
+      "name": "Turquesa",
+      "number": "10",
+      "colour": "#049FC3",
+      "mode": "commuter_rail",
+      "operator": "CPTM",
+      "status": "operational",
+      "stations": [
+        "palmeiras-barra-funda",
+        "luz",
+        "bras",
+        "juventus-mooca",
+        "ipiranga",
+        "tamanduatei",
+        "sao-caetano-do-sul-prefeito-walter-braido",
+        "utinga",
+        "prefeito-saladino",
+        "prefeito-celso-daniel-santo-andre",
+        "capuava",
+        "maua",
+        "guapituba",
+        "ribeirao-pires-antonio-bespalec",
+        "rio-grande-da-serra"
+      ]
+    },
+    {
+      "id": "linha-11",
+      "slug": "linha-11-coral",
+      "name": "Coral",
+      "number": "11",
+      "colour": "#F68368",
+      "mode": "commuter_rail",
+      "operator": "TRIVIA",
+      "status": "operational",
+      "stations": [
+        "palmeiras-barra-funda",
+        "luz",
+        "bras",
+        "tatuape",
+        "corinthians-itaquera",
+        "dom-bosco",
+        "jose-bonifacio",
+        "guaianases",
+        "antonio-gianetti-neto",
+        "ferraz-de-vasconcelos",
+        "poa",
+        "calmon-viana",
+        "suzano",
+        "jundiapeba",
+        "braz-cubas",
+        "mogi-das-cruzes",
+        "estudantes"
+      ]
+    },
+    {
+      "id": "linha-12",
+      "slug": "linha-12-safira",
+      "name": "Safira",
+      "number": "12",
+      "colour": "#1C146B",
+      "mode": "commuter_rail",
+      "operator": "TRIVIA",
+      "status": "operational",
+      "stations": [
+        "bras",
+        "tatuape",
+        "engenheiro-goulart",
+        "usp-leste",
+        "comendador-ermelino",
+        "uniao-de-vila-nova",
+        "sao-miguel-paulista",
+        "jardim-helena-vila-mara",
+        "itaim-paulista",
+        "jardim-romano",
+        "eng-manoel-feio",
+        "itaquaquecetuba",
+        "aracare",
+        "calmon-viana"
+      ]
+    },
+    {
+      "id": "linha-13",
+      "slug": "linha-13-jade",
+      "name": "Jade",
+      "number": "13",
+      "colour": "#00B352",
+      "mode": "commuter_rail",
+      "operator": "TRIVIA",
+      "status": "operational",
+      "stations": [
+        "engenheiro-goulart",
+        "guarulhos-cecap",
+        "aeroporto-guarulhos"
+      ]
+    },
+    {
+      "id": "linha-15",
+      "slug": "linha-15-prata",
+      "name": "Prata",
+      "number": "15",
+      "colour": "#9E9E9E",
+      "mode": "monorail",
+      "operator": "Metrô SP",
+      "status": "operational",
+      "stations": [
+        "vila-prudente",
+        "oratorio",
+        "sao-lucas",
+        "camilo-haddad",
+        "vila-tolstoi",
+        "vila-uniao",
+        "jardim-planalto",
+        "sapopemba",
+        "fazenda-da-juta",
+        "sao-mateus",
+        "jardim-colonial",
+        "boa-esperanca",
+        "jacu-pessego",
+        "cidade-tiradentes"
+      ]
+    },
+    {
+      "id": "linha-17",
+      "slug": "linha-17-ouro",
+      "name": "Ouro",
+      "number": "17",
+      "colour": "#D48500",
+      "mode": "monorail",
+      "operator": "Metrô SP",
+      "status": "partial",
+      "stations": [
+        "morumbi-claro",
+        "chucri-zaidan",
+        "vila-cordeiro",
+        "campo-belo",
+        "vereador-jose-diniz",
+        "brooklin-paulista",
+        "washington-luis",
+        "jabaquara-comite-paralimpico-brasileiro"
+      ],
+      "branches": [
+        [
+          "brooklin-paulista",
+          "aeroporto-de-congonhas"
+        ],
+        [
+          "sao-paulo-morumbi",
+          "morumbi-claro"
+        ]
+      ]
+    },
+    {
+      "id": "expresso-aeroporto",
+      "slug": "expresso-aeroporto",
+      "name": "Expresso Aeroporto",
+      "number": null,
+      "colour": "#231F20",
+      "mode": "airport_express",
+      "operator": "TRIVIA",
+      "status": "operational",
+      "limited_schedule": true,
+      "stations": [
+        "palmeiras-barra-funda",
+        "luz",
+        "guarulhos-cecap",
+        "aeroporto-guarulhos"
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "14-bis-saracura",
+      "slug": "14-bis-saracura",
+      "name": "14 Bis – Saracura",
+      "lat": -23.556645,
+      "lon": -46.649248,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-6"
+      ]
+    },
+    {
+      "id": "aacd-servidor",
+      "slug": "aacd-servidor",
+      "name": "AACD-Servidor",
+      "lat": -23.597636,
+      "lon": -46.6518,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "adolfo-pinheiro-unisa",
+      "slug": "adolfo-pinheiro-unisa",
+      "name": "Adolfo Pinheiro",
+      "lat": -23.649653,
+      "lon": -46.703884,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "aeroporto-de-congonhas",
+      "slug": "aeroporto-de-congonhas",
+      "name": "Aeroporto de Congonhas",
+      "lat": -23.626656,
+      "lon": -46.661502,
+      "lines": [
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "aeroporto-guarulhos",
+      "slug": "aeroporto-guarulhos",
+      "name": "Aeroporto-Guarulhos",
+      "lat": -23.433057,
+      "lon": -46.493813,
+      "lines": [
+        "linha-13",
+        "expresso-aeroporto"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "agua-branca",
+      "slug": "agua-branca",
+      "name": "Água Branca",
+      "lat": -23.521435,
+      "lon": -46.689045,
+      "lines": [
+        "linha-6",
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "alto-da-boa-vista",
+      "slug": "alto-da-boa-vista",
+      "name": "Alto da Boa Vista",
+      "lat": -23.641501,
+      "lon": -46.699056,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "alto-do-ipiranga",
+      "slug": "alto-do-ipiranga",
+      "name": "Alto do Ipiranga",
+      "lat": -23.602195,
+      "lon": -46.61237,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "amador-bueno",
+      "slug": "amador-bueno",
+      "name": "Amador Bueno",
+      "lat": -23.530508,
+      "lon": -46.983756,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "ana-rosa",
+      "slug": "ana-rosa",
+      "name": "Ana Rosa",
+      "lat": -23.581355,
+      "lon": -46.638627,
+      "lines": [
+        "linha-1",
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "analia-franco",
+      "slug": "analia-franco",
+      "name": "Anália Franco",
+      "lat": -23.563762,
+      "lon": -46.560124,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-2"
+      ]
+    },
+    {
+      "id": "anhangabau",
+      "slug": "anhangabau",
+      "name": "Anhangabaú",
+      "lat": -23.547948,
+      "lon": -46.638886,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "antonio-gianetti-neto",
+      "slug": "antonio-gianetti-neto",
+      "name": "Antônio Gianetti Neto",
+      "lat": -23.554349,
+      "lon": -46.38367,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "antonio-joao",
+      "slug": "antonio-joao",
+      "name": "Antônio João",
+      "lat": -23.516831,
+      "lon": -46.858902,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "aracare",
+      "slug": "aracare",
+      "name": "Aracaré",
+      "lat": -23.499739,
+      "lon": -46.339085,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "aricanduva",
+      "slug": "aricanduva",
+      "name": "Aricanduva",
+      "lat": -23.539819,
+      "lon": -46.541312,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-2"
+      ]
+    },
+    {
+      "id": "armenia",
+      "slug": "armenia",
+      "name": "Armênia",
+      "lat": -23.5255,
+      "lon": -46.62934,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "artur-alvim",
+      "slug": "artur-alvim",
+      "name": "Artur Alvim",
+      "lat": -23.540288,
+      "lon": -46.48459,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "autodromo",
+      "slug": "autodromo",
+      "name": "Autódromo",
+      "lat": -23.706557,
+      "lon": -46.688447,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "baltazar-fidelis",
+      "slug": "baltazar-fidelis",
+      "name": "Baltazar Fidélis",
+      "lat": -23.309892,
+      "lon": -46.72362,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "barueri",
+      "slug": "barueri",
+      "name": "Barueri",
+      "lat": -23.512558,
+      "lon": -46.875172,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "bela-vista",
+      "slug": "bela-vista",
+      "name": "Bela Vista",
+      "lat": -23.56174,
+      "lon": -46.644805,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-6"
+      ]
+    },
+    {
+      "id": "belem",
+      "slug": "belem",
+      "name": "Belém",
+      "lat": -23.543023,
+      "lon": -46.590108,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "berrini-casas-bahia",
+      "slug": "berrini-casas-bahia",
+      "name": "Berrini",
+      "lat": -23.605278,
+      "lon": -46.696976,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "boa-esperanca",
+      "slug": "boa-esperanca",
+      "name": "Boa Esperança",
+      "lat": -23.596881,
+      "lon": -46.456665,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-15"
+      ]
+    },
+    {
+      "id": "borba-gato",
+      "slug": "borba-gato",
+      "name": "Borba Gato",
+      "lat": -23.633361,
+      "lon": -46.693015,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "botujuru",
+      "slug": "botujuru",
+      "name": "Botujuru",
+      "lat": -23.235826,
+      "lon": -46.767735,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "bras",
+      "slug": "bras",
+      "name": "Brás",
+      "lat": -23.547884,
+      "lon": -46.615909,
+      "lines": [
+        "linha-3",
+        "linha-10",
+        "linha-11",
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "brasilandia",
+      "slug": "brasilandia",
+      "name": "Brasilândia",
+      "lat": -23.470414,
+      "lon": -46.698308,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-6"
+      ]
+    },
+    {
+      "id": "braz-cubas",
+      "slug": "braz-cubas",
+      "name": "Brás Cubas",
+      "lat": -23.536301,
+      "lon": -46.22553,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "bresser-mooca",
+      "slug": "bresser-mooca",
+      "name": "Bresser-Mooca",
+      "lat": -23.546476,
+      "lon": -46.60754,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "brigadeiro",
+      "slug": "brigadeiro",
+      "name": "Brigadeiro",
+      "lat": -23.56888,
+      "lon": -46.647354,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "brooklin",
+      "slug": "brooklin",
+      "name": "Brooklin",
+      "lat": -23.627253,
+      "lon": -46.688028,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "brooklin-paulista",
+      "slug": "brooklin-paulista",
+      "name": "Brooklin Paulista",
+      "lat": -23.629508,
+      "lon": -46.673617,
+      "lines": [
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "butanta",
+      "slug": "butanta",
+      "name": "Butantã",
+      "lat": -23.571993,
+      "lon": -46.70824,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "caieiras",
+      "slug": "caieiras",
+      "name": "Caieiras",
+      "lat": -23.366276,
+      "lon": -46.751636,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "calmon-viana",
+      "slug": "calmon-viana",
+      "name": "Calmon Viana",
+      "lat": -23.525683,
+      "lon": -46.332389,
+      "lines": [
+        "linha-11",
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "camilo-haddad",
+      "slug": "camilo-haddad",
+      "name": "Camilo Haddad",
+      "lat": -23.595413,
+      "lon": -46.537693,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "campo-belo",
+      "slug": "campo-belo",
+      "name": "Campo Belo",
+      "lat": -23.618974,
+      "lon": -46.682319,
+      "lines": [
+        "linha-5",
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "campo-limpo",
+      "slug": "campo-limpo",
+      "name": "Campo Limpo",
+      "lat": -23.649384,
+      "lon": -46.758961,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "campo-limpo-paulista",
+      "slug": "campo-limpo-paulista",
+      "name": "Campo Limpo Paulista",
+      "lat": -23.206689,
+      "lon": -46.785291,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "capao-redondo",
+      "slug": "capao-redondo",
+      "name": "Capão Redondo",
+      "lat": -23.659299,
+      "lon": -46.768012,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "capuava",
+      "slug": "capuava",
+      "name": "Capuava",
+      "lat": -23.658349,
+      "lon": -46.490109,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "carandiru",
+      "slug": "carandiru",
+      "name": "Carandiru",
+      "lat": -23.509276,
+      "lon": -46.624963,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "carapicuiba",
+      "slug": "carapicuiba",
+      "name": "Carapicuíba",
+      "lat": -23.518536,
+      "lon": -46.835417,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "carrao-assai-atacadista",
+      "slug": "carrao-assai-atacadista",
+      "name": "Carrão",
+      "lat": -23.537851,
+      "lon": -46.564155,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "ceasa",
+      "slug": "ceasa",
+      "name": "Ceasa",
+      "lat": -23.537419,
+      "lon": -46.742611,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "chacara-klabin",
+      "slug": "chacara-klabin",
+      "name": "Chácara Klabin",
+      "lat": -23.592632,
+      "lon": -46.630486,
+      "lines": [
+        "linha-2",
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "chucri-zaidan",
+      "slug": "chucri-zaidan",
+      "name": "Chucri Zaidan",
+      "lat": -23.613763,
+      "lon": -46.695958,
+      "lines": [
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "cidade-jardim",
+      "slug": "cidade-jardim",
+      "name": "Cidade Jardim",
+      "lat": -23.585524,
+      "lon": -46.691163,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "cidade-tiradentes",
+      "slug": "cidade-tiradentes",
+      "name": "Cidade Tiradentes",
+      "lat": -23.582904,
+      "lon": -46.409482,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-15"
+      ]
+    },
+    {
+      "id": "cidade-universitaria",
+      "slug": "cidade-universitaria",
+      "name": "Cidade Universitária",
+      "lat": -23.557643,
+      "lon": -46.711777,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "clinicas",
+      "slug": "clinicas",
+      "name": "Clínicas",
+      "lat": -23.554111,
+      "lon": -46.670762,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "comandante-sampaio",
+      "slug": "comandante-sampaio",
+      "name": "Comandante Sampaio",
+      "lat": -23.525705,
+      "lon": -46.795869,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "comendador-ermelino",
+      "slug": "comendador-ermelino",
+      "name": "Comendador Ermelino",
+      "lat": -23.485142,
+      "lon": -46.482409,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "conceicao",
+      "slug": "conceicao",
+      "name": "Conceição",
+      "lat": -23.635378,
+      "lon": -46.641332,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "consolacao",
+      "slug": "consolacao",
+      "name": "Consolação",
+      "lat": -23.557228,
+      "lon": -46.661192,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "corinthians-itaquera",
+      "slug": "corinthians-itaquera",
+      "name": "Corinthians-Itaquera",
+      "lat": -23.542305,
+      "lon": -46.471078,
+      "lines": [
+        "linha-3",
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "dom-bosco",
+      "slug": "dom-bosco",
+      "name": "Dom Bosco",
+      "lat": -23.541798,
+      "lon": -46.448129,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "domingos-de-moraes",
+      "slug": "domingos-de-moraes",
+      "name": "Domingos de Moraes",
+      "lat": -23.51893,
+      "lon": -46.721485,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "eng-manoel-feio",
+      "slug": "eng-manoel-feio",
+      "name": "Eng. Manoel Feio",
+      "lat": -23.478636,
+      "lon": -46.364469,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "engenheiro-cardoso",
+      "slug": "engenheiro-cardoso",
+      "name": "Engenheiro Cardoso",
+      "lat": -23.535233,
+      "lon": -46.928579,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "engenheiro-goulart",
+      "slug": "engenheiro-goulart",
+      "name": "Engenheiro Goulart",
+      "lat": -23.498101,
+      "lon": -46.520102,
+      "lines": [
+        "linha-12",
+        "linha-13"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "estacao-hospital-sao-paulo",
+      "slug": "estacao-hospital-sao-paulo",
+      "name": "Hospital São Paulo",
+      "lat": -23.59816,
+      "lon": -46.64536,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "estudantes",
+      "slug": "estudantes",
+      "name": "Estudantes",
+      "lat": -23.515654,
+      "lon": -46.184863,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "eucaliptos",
+      "slug": "eucaliptos",
+      "name": "Eucaliptos",
+      "lat": -23.610145,
+      "lon": -46.668991,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "faria-lima-pagbank",
+      "slug": "faria-lima-pagbank",
+      "name": "Faria Lima",
+      "lat": -23.567158,
+      "lon": -46.693988,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "fazenda-da-juta",
+      "slug": "fazenda-da-juta",
+      "name": "Fazenda da Juta",
+      "lat": -23.611688,
+      "lon": -46.487472,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "ferraz-de-vasconcelos",
+      "slug": "ferraz-de-vasconcelos",
+      "name": "Ferraz de Vasconcelos",
+      "lat": -23.540751,
+      "lon": -46.368269,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "fradique-coutinho",
+      "slug": "fradique-coutinho",
+      "name": "Fradique Coutinho",
+      "lat": -23.566169,
+      "lon": -46.684165,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "francisco-morato",
+      "slug": "francisco-morato",
+      "name": "Francisco Morato",
+      "lat": -23.281685,
+      "lon": -46.742544,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "franco-da-rocha",
+      "slug": "franco-da-rocha",
+      "name": "Franco da Rocha",
+      "lat": -23.329637,
+      "lon": -46.726294,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "freguesia-do-o",
+      "slug": "freguesia-do-o",
+      "name": "Freguesia do Ó",
+      "lat": -23.50144,
+      "lon": -46.693852,
+      "lines": [
+        "linha-6"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "general-miguel-costa",
+      "slug": "general-miguel-costa",
+      "name": "General Miguel Costa",
+      "lat": -23.523423,
+      "lon": -46.815695,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "giovanni-gronchi",
+      "slug": "giovanni-gronchi",
+      "name": "Giovanni Gronchi",
+      "lat": -23.643965,
+      "lon": -46.734096,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "grajau",
+      "slug": "grajau",
+      "name": "Grajaú",
+      "lat": -23.736449,
+      "lon": -46.697015,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "granja-julieta",
+      "slug": "granja-julieta",
+      "name": "Granja Julieta",
+      "lat": -23.627916,
+      "lon": -46.712288,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "guaianases",
+      "slug": "guaianases",
+      "name": "Guaianases",
+      "lat": -23.542318,
+      "lon": -46.415612,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "guapituba",
+      "slug": "guapituba",
+      "name": "Guapituba",
+      "lat": -23.692031,
+      "lon": -46.448849,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "guarulhos-cecap",
+      "slug": "guarulhos-cecap",
+      "name": "Guarulhos-Cecap",
+      "lat": -23.447441,
+      "lon": -46.493693,
+      "lines": [
+        "linha-13",
+        "expresso-aeroporto"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "guilhermina-esperanca",
+      "slug": "guilhermina-esperanca",
+      "name": "Guilhermina-Esperança",
+      "lat": -23.529263,
+      "lon": -46.516548,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "hebraica-reboucas",
+      "slug": "hebraica-reboucas",
+      "name": "Hebraica - Rebouças",
+      "lat": -23.573612,
+      "lon": -46.698792,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "higienopolis-mackenzie",
+      "slug": "higienopolis-mackenzie",
+      "name": "Higienópolis-Mackenzie",
+      "lat": -23.548952,
+      "lon": -46.652261,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-6"
+      ]
+    },
+    {
+      "id": "imperatriz-leopoldina",
+      "slug": "imperatriz-leopoldina",
+      "name": "Imperatriz Leopoldina",
+      "lat": -23.523754,
+      "lon": -46.737592,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "ipiranga",
+      "slug": "ipiranga",
+      "name": "Ipiranga",
+      "lat": -23.582495,
+      "lon": -46.596651,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "itaberaba-hospital-vila-penteado",
+      "slug": "itaberaba-hospital-vila-penteado",
+      "name": "Itaberaba",
+      "lat": -23.485427,
+      "lon": -46.69359,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-6"
+      ]
+    },
+    {
+      "id": "itaim-paulista",
+      "slug": "itaim-paulista",
+      "name": "Itaim Paulista",
+      "lat": -23.493854,
+      "lon": -46.401997,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "itapevi",
+      "slug": "itapevi",
+      "name": "Itapevi",
+      "lat": -23.546136,
+      "lon": -46.935689,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "itaquaquecetuba",
+      "slug": "itaquaquecetuba",
+      "name": "Itaquaquecetuba",
+      "lat": -23.486136,
+      "lon": -46.347883,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jabaquara-comite-paralimpico-brasileiro",
+      "slug": "jabaquara-comite-paralimpico-brasileiro",
+      "name": "Jabaquara",
+      "lat": -23.646483,
+      "lon": -46.640991,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-17"
+      ]
+    },
+    {
+      "id": "jacu-pessego",
+      "slug": "jacu-pessego",
+      "name": "Jacu-Pêssego",
+      "lat": -23.594673,
+      "lon": -46.443966,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-15"
+      ]
+    },
+    {
+      "id": "jandira",
+      "slug": "jandira",
+      "name": "Jandira",
+      "lat": -23.527707,
+      "lon": -46.902379,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "japao-liberdade",
+      "slug": "japao-liberdade",
+      "name": "Japão - Liberdade",
+      "lat": -23.554976,
+      "lon": -46.635734,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jaragua",
+      "slug": "jaragua",
+      "name": "Jaraguá",
+      "lat": -23.45545,
+      "lon": -46.738417,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jardim-belval",
+      "slug": "jardim-belval",
+      "name": "Jardim Belval",
+      "lat": -23.513993,
+      "lon": -46.889281,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jardim-colonial",
+      "slug": "jardim-colonial",
+      "name": "Jardim Colonial",
+      "lat": -23.598997,
+      "lon": -46.468991,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jardim-helena-vila-mara",
+      "slug": "jardim-helena-vila-mara",
+      "name": "Jardim Helena - Vila Mara",
+      "lat": -23.492704,
+      "lon": -46.420932,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jardim-planalto",
+      "slug": "jardim-planalto",
+      "name": "Jardim Planalto",
+      "lat": -23.607391,
+      "lon": -46.507052,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jardim-romano",
+      "slug": "jardim-romano",
+      "name": "Jardim Romano",
+      "lat": -23.484823,
+      "lon": -46.385391,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jardim-sao-paulo-ayrton-senna",
+      "slug": "jardim-sao-paulo-ayrton-senna",
+      "name": "Jardim São Paulo - Ayrton Senna",
+      "lat": -23.492417,
+      "lon": -46.61711,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jardim-silveira-leo-madeiras",
+      "slug": "jardim-silveira-leo-madeiras",
+      "name": "Jardim Silveira",
+      "lat": -23.523849,
+      "lon": -46.893597,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "joao-dias",
+      "slug": "joao-dias",
+      "name": "João Dias",
+      "lat": -23.640213,
+      "lon": -46.723843,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "joao-paulo-i",
+      "slug": "joao-paulo-i",
+      "name": "João Paulo I",
+      "lat": -23.493102,
+      "lon": -46.691407,
+      "lines": [
+        "linha-6"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jose-bonifacio",
+      "slug": "jose-bonifacio",
+      "name": "José Bonifácio",
+      "lat": -23.539061,
+      "lon": -46.431507,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "julio-prestes",
+      "slug": "julio-prestes",
+      "name": "Júlio Prestes",
+      "lat": -23.532597,
+      "lon": -46.640984,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jundiai",
+      "slug": "jundiai",
+      "name": "Jundiaí",
+      "lat": -23.195175,
+      "lon": -46.872284,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jundiapeba",
+      "slug": "jundiapeba",
+      "name": "Jundiapeba",
+      "lat": -23.542799,
+      "lon": -46.25813,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "jurubatuba-senac",
+      "slug": "jurubatuba-senac",
+      "name": "Jurubatuba",
+      "lat": -23.677436,
+      "lon": -46.702128,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "juventus-mooca",
+      "slug": "juventus-mooca",
+      "name": "Juventus-Mooca",
+      "lat": -23.558066,
+      "lon": -46.608352,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "lapa",
+      "slug": "lapa",
+      "name": "Lapa",
+      "lat": -23.517734,
+      "lon": -46.703659,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "lapa-senac",
+      "slug": "lapa-senac",
+      "name": "Lapa (Linha 8)",
+      "lat": -23.520164,
+      "lon": -46.699005,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "largo-treze",
+      "slug": "largo-treze",
+      "name": "Largo Treze",
+      "lat": -23.654463,
+      "lon": -46.709535,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "luz",
+      "slug": "luz",
+      "name": "Luz",
+      "lat": -23.536902,
+      "lon": -46.63367,
+      "lines": [
+        "linha-1",
+        "linha-4",
+        "linha-11",
+        "linha-10",
+        "expresso-aeroporto"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "marechal-deodoro",
+      "slug": "marechal-deodoro",
+      "name": "Marechal Deodoro",
+      "lat": -23.533518,
+      "lon": -46.656027,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "maua",
+      "slug": "maua",
+      "name": "Mauá",
+      "lat": -23.668266,
+      "lon": -46.46154,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "mendes-vila-natal",
+      "slug": "mendes-vila-natal",
+      "name": "Mendes - Vila Natal",
+      "lat": -23.754291,
+      "lon": -46.709279,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "moema",
+      "slug": "moema",
+      "name": "Moema",
+      "lat": -23.603329,
+      "lon": -46.661987,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "mogi-das-cruzes",
+      "slug": "mogi-das-cruzes",
+      "name": "Mogi das Cruzes",
+      "lat": -23.521773,
+      "lon": -46.197979,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "morumbi-claro",
+      "slug": "morumbi-claro",
+      "name": "Morumbi",
+      "lat": -23.621845,
+      "lon": -46.701822,
+      "lines": [
+        "linha-9",
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "oratorio",
+      "slug": "oratorio",
+      "name": "Oratório",
+      "lat": -23.582178,
+      "lon": -46.5619,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "osasco",
+      "slug": "osasco",
+      "name": "Osasco",
+      "lat": -23.527747,
+      "lon": -46.775884,
+      "lines": [
+        "linha-8",
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "oscar-freire",
+      "slug": "oscar-freire",
+      "name": "Oscar Freire",
+      "lat": -23.560518,
+      "lon": -46.672084,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "palmeiras-barra-funda",
+      "slug": "palmeiras-barra-funda",
+      "name": "Palmeiras-Barra Funda",
+      "lat": -23.525948,
+      "lon": -46.667373,
+      "lines": [
+        "linha-3",
+        "linha-7",
+        "linha-8",
+        "linha-10",
+        "linha-11",
+        "expresso-aeroporto"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "parada-inglesa",
+      "slug": "parada-inglesa",
+      "name": "Parada Inglesa",
+      "lat": -23.487033,
+      "lon": -46.608821,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "paraiso",
+      "slug": "paraiso",
+      "name": "Paraíso",
+      "lat": -23.575768,
+      "lon": -46.641056,
+      "lines": [
+        "linha-1",
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "patriarca-vila-re",
+      "slug": "patriarca-vila-re",
+      "name": "Patriarca-Vila Ré",
+      "lat": -23.531183,
+      "lon": -46.501382,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "paulista",
+      "slug": "paulista",
+      "name": "Paulista",
+      "lat": -23.555076,
+      "lon": -46.662187,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "pedro-ii",
+      "slug": "pedro-ii",
+      "name": "Pedro II",
+      "lat": -23.549716,
+      "lon": -46.625909,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "penha-lojas-besni",
+      "slug": "penha-lojas-besni",
+      "name": "Penha",
+      "lat": -23.533481,
+      "lon": -46.542349,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-2"
+      ]
+    },
+    {
+      "id": "perdizes",
+      "slug": "perdizes",
+      "name": "Perdizes",
+      "lat": -23.532405,
+      "lon": -46.675896,
+      "lines": [
+        "linha-6"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "perus",
+      "slug": "perus",
+      "name": "Perus",
+      "lat": -23.404774,
+      "lon": -46.753753,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "pinheiros",
+      "slug": "pinheiros",
+      "name": "Pinheiros",
+      "lat": -23.567183,
+      "lon": -46.701696,
+      "lines": [
+        "linha-4",
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "piqueri",
+      "slug": "piqueri",
+      "name": "Piqueri",
+      "lat": -23.502893,
+      "lon": -46.714866,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "pirituba",
+      "slug": "pirituba",
+      "name": "Pirituba",
+      "lat": -23.48852,
+      "lon": -46.726029,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "poa",
+      "slug": "poa",
+      "name": "Poá",
+      "lat": -23.525415,
+      "lon": -46.34363,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "portuguesa-tiete",
+      "slug": "portuguesa-tiete",
+      "name": "Portuguesa-Tietê",
+      "lat": -23.516131,
+      "lon": -46.625161,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "praca-da-arvore",
+      "slug": "praca-da-arvore",
+      "name": "Praça da Árvore",
+      "lat": -23.610642,
+      "lon": -46.637884,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "prefeito-celso-daniel-santo-andre",
+      "slug": "prefeito-celso-daniel-santo-andre",
+      "name": "Prefeito Celso Daniel - Santo André",
+      "lat": -23.65208,
+      "lon": -46.528295,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "prefeito-saladino",
+      "slug": "prefeito-saladino",
+      "name": "Prefeito Saladino",
+      "lat": -23.637812,
+      "lon": -46.536939,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "presidente-altino",
+      "slug": "presidente-altino",
+      "name": "Presidente Altino",
+      "lat": -23.531224,
+      "lon": -46.761773,
+      "lines": [
+        "linha-8",
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "primavera-interlagos",
+      "slug": "primavera-interlagos",
+      "name": "Primavera - Interlagos",
+      "lat": -23.722712,
+      "lon": -46.691759,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "puc-cardoso-de-almeida",
+      "slug": "puc-cardoso-de-almeida",
+      "name": "PUC-Cardoso de Almeida",
+      "lat": -23.538587,
+      "lon": -46.668905,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-6"
+      ]
+    },
+    {
+      "id": "quitauna",
+      "slug": "quitauna",
+      "name": "Quitaúna",
+      "lat": -23.522823,
+      "lon": -46.806766,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "republica",
+      "slug": "republica",
+      "name": "República",
+      "lat": -23.543894,
+      "lon": -46.643149,
+      "lines": [
+        "linha-3",
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "ribeirao-pires-antonio-bespalec",
+      "slug": "ribeirao-pires-antonio-bespalec",
+      "name": "Ribeirão Pires",
+      "lat": -23.713827,
+      "lon": -46.414541,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "rio-grande-da-serra",
+      "slug": "rio-grande-da-serra",
+      "name": "Rio Grande da Serra",
+      "lat": -23.743504,
+      "lon": -46.391597,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sacoma",
+      "slug": "sacoma",
+      "name": "Sacomã",
+      "lat": -23.601415,
+      "lon": -46.603172,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sagrado-coracao",
+      "slug": "sagrado-coracao",
+      "name": "Sagrado Coração",
+      "lat": -23.529143,
+      "lon": -46.917131,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "santa-cecilia",
+      "slug": "santa-cecilia",
+      "name": "Santa Cecília",
+      "lat": -23.539638,
+      "lon": -46.64888,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "santa-cruz",
+      "slug": "santa-cruz",
+      "name": "Santa Cruz",
+      "lat": -23.598829,
+      "lon": -46.636688,
+      "lines": [
+        "linha-1",
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "santa-marina",
+      "slug": "santa-marina",
+      "name": "Santa Marina",
+      "lat": -23.514507,
+      "lon": -46.691517,
+      "lines": [
+        "linha-6"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "santa-rita",
+      "slug": "santa-rita",
+      "name": "Santa Rita",
+      "lat": -23.544975,
+      "lon": -46.947517,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "santa-terezinha",
+      "slug": "santa-terezinha",
+      "name": "Santa Terezinha",
+      "lat": -23.516579,
+      "lon": -46.84795,
+      "lines": [
+        "linha-8"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "santana",
+      "slug": "santana",
+      "name": "Santana",
+      "lat": -23.502569,
+      "lon": -46.624773,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "santo-amaro",
+      "slug": "santo-amaro",
+      "name": "Santo Amaro",
+      "lat": -23.65575,
+      "lon": -46.720934,
+      "lines": [
+        "linha-5",
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "santos-imigrantes",
+      "slug": "santos-imigrantes",
+      "name": "Santos - Imigrantes",
+      "lat": -23.595938,
+      "lon": -46.6207,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "santuario-nossa-senhora-de-fatima-sumare",
+      "slug": "santuario-nossa-senhora-de-fatima-sumare",
+      "name": "Sumaré",
+      "lat": -23.551016,
+      "lon": -46.677538,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sao-bento",
+      "slug": "sao-bento",
+      "name": "São Bento",
+      "lat": -23.544084,
+      "lon": -46.634167,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sao-caetano-do-sul-prefeito-walter-braido",
+      "slug": "sao-caetano-do-sul-prefeito-walter-braido",
+      "name": "São Caetano do Sul",
+      "lat": -23.609845,
+      "lon": -46.570058,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sao-joaquim",
+      "slug": "sao-joaquim",
+      "name": "São Joaquim",
+      "lat": -23.561911,
+      "lon": -46.638697,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-6"
+      ]
+    },
+    {
+      "id": "sao-judas",
+      "slug": "sao-judas",
+      "name": "São Judas",
+      "lat": -23.625752,
+      "lon": -46.640812,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sao-lucas",
+      "slug": "sao-lucas",
+      "name": "São Lucas",
+      "lat": -23.589295,
+      "lon": -46.544369,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sao-mateus",
+      "slug": "sao-mateus",
+      "name": "São Mateus",
+      "lat": -23.612088,
+      "lon": -46.476682,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sao-miguel-paulista",
+      "slug": "sao-miguel-paulista",
+      "name": "São Miguel Paulista",
+      "lat": -23.49053,
+      "lon": -46.443723,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "sao-paulo-morumbi",
+      "slug": "sao-paulo-morumbi",
+      "name": "São Paulo-Morumbi",
+      "lat": -23.586389,
+      "lon": -46.72383,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-17"
+      ]
+    },
+    {
+      "id": "sapopemba",
+      "slug": "sapopemba",
+      "name": "Sapopemba",
+      "lat": -23.614753,
+      "lon": -46.501427,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "saude-ultrafarma",
+      "slug": "saude-ultrafarma",
+      "name": "Saúde",
+      "lat": -23.618609,
+      "lon": -46.639237,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "se",
+      "slug": "se",
+      "name": "Sé",
+      "lat": -23.550921,
+      "lon": -46.633135,
+      "lines": [
+        "linha-1",
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "sesc-pompeia",
+      "slug": "sesc-pompeia",
+      "name": "SESC-Pompeia",
+      "lat": -23.527258,
+      "lon": -46.683555,
+      "lines": [
+        "linha-6"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "socorro",
+      "slug": "socorro",
+      "name": "Socorro",
+      "lat": -23.663473,
+      "lon": -46.710909,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "suzano",
+      "slug": "suzano",
+      "name": "Suzano",
+      "lat": -23.533975,
+      "lon": -46.308034,
+      "lines": [
+        "linha-11"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "tamanduatei",
+      "slug": "tamanduatei",
+      "name": "Tamanduateí",
+      "lat": -23.592938,
+      "lon": -46.589575,
+      "lines": [
+        "linha-2",
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "tatuape",
+      "slug": "tatuape",
+      "name": "Tatuapé",
+      "lat": -23.54044,
+      "lon": -46.576284,
+      "lines": [
+        "linha-3",
+        "linha-11",
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "tiradentes",
+      "slug": "tiradentes",
+      "name": "Tiradentes",
+      "lat": -23.530658,
+      "lon": -46.632172,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "trianon-masp",
+      "slug": "trianon-masp",
+      "name": "Trianon-Masp",
+      "lat": -23.563161,
+      "lon": -46.654416,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "tucuruvi",
+      "slug": "tucuruvi",
+      "name": "Tucuruvi",
+      "lat": -23.47998,
+      "lon": -46.603151,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "uniao-de-vila-nova",
+      "slug": "uniao-de-vila-nova",
+      "name": "União de Vila Nova",
+      "lat": -23.486349,
+      "lon": -46.464536,
+      "lines": [],
+      "status": "planned",
+      "is_interchange": false,
+      "planned_lines": [
+        "linha-12"
+      ]
+    },
+    {
+      "id": "usp-leste",
+      "slug": "usp-leste",
+      "name": "USP Leste",
+      "lat": -23.48548,
+      "lon": -46.500711,
+      "lines": [
+        "linha-12"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "utinga",
+      "slug": "utinga",
+      "name": "Utinga",
+      "lat": -23.626255,
+      "lon": -46.544172,
+      "lines": [
+        "linha-10"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "varginha",
+      "slug": "varginha",
+      "name": "Varginha",
+      "lat": -23.770001,
+      "lon": -46.711901,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "varzea-paulista",
+      "slug": "varzea-paulista",
+      "name": "Várzea Paulista",
+      "lat": -23.208987,
+      "lon": -46.829091,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vereador-jose-diniz",
+      "slug": "vereador-jose-diniz",
+      "name": "Vereador José Diniz",
+      "lat": -23.621926,
+      "lon": -46.678954,
+      "lines": [
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vergueiro-sebrae",
+      "slug": "vergueiro-sebrae",
+      "name": "Vergueiro",
+      "lat": -23.568915,
+      "lon": -46.639937,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-aurora",
+      "slug": "vila-aurora",
+      "name": "Vila Aurora",
+      "lat": -23.437453,
+      "lon": -46.747371,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-clarice",
+      "slug": "vila-clarice",
+      "name": "Vila Clarice",
+      "lat": -23.469903,
+      "lon": -46.744164,
+      "lines": [
+        "linha-7"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-cordeiro",
+      "slug": "vila-cordeiro",
+      "name": "Vila Cordeiro",
+      "lat": -23.615424,
+      "lon": -46.688978,
+      "lines": [
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-das-belezas",
+      "slug": "vila-das-belezas",
+      "name": "Vila das Belezas",
+      "lat": -23.640406,
+      "lon": -46.745736,
+      "lines": [
+        "linha-5"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-madalena",
+      "slug": "vila-madalena",
+      "name": "Vila Madalena",
+      "lat": -23.546391,
+      "lon": -46.690855,
+      "lines": [
+        "linha-2"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-mariana",
+      "slug": "vila-mariana",
+      "name": "Vila Mariana",
+      "lat": -23.589108,
+      "lon": -46.634651,
+      "lines": [
+        "linha-1"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-matilde",
+      "slug": "vila-matilde",
+      "name": "Vila Matilde",
+      "lat": -23.531877,
+      "lon": -46.531005,
+      "lines": [
+        "linha-3"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-olimpia",
+      "slug": "vila-olimpia",
+      "name": "Vila Olímpia",
+      "lat": -23.593454,
+      "lon": -46.692855,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-prudente",
+      "slug": "vila-prudente",
+      "name": "Vila Prudente",
+      "lat": -23.584326,
+      "lon": -46.581906,
+      "lines": [
+        "linha-2",
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": true
+    },
+    {
+      "id": "vila-sonia-professora-elizabeth-tenreiro",
+      "slug": "vila-sonia-professora-elizabeth-tenreiro",
+      "name": "Vila Sônia",
+      "lat": -23.593418,
+      "lon": -46.734758,
+      "lines": [
+        "linha-4"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-tolstoi",
+      "slug": "vila-tolstoi",
+      "name": "Vila Tolstói",
+      "lat": -23.600921,
+      "lon": -46.527095,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "vila-uniao",
+      "slug": "vila-uniao",
+      "name": "Vila União",
+      "lat": -23.60287,
+      "lon": -46.516113,
+      "lines": [
+        "linha-15"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "villa-lobos-jaguare",
+      "slug": "villa-lobos-jaguare",
+      "name": "Villa-Lobos - Jaguaré",
+      "lat": -23.54602,
+      "lon": -46.732817,
+      "lines": [
+        "linha-9"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    },
+    {
+      "id": "washington-luis",
+      "slug": "washington-luis",
+      "name": "Washington Luís",
+      "lat": -23.634266,
+      "lon": -46.668626,
+      "lines": [
+        "linha-17"
+      ],
+      "status": "operational",
+      "is_interchange": false
+    }
+  ],
+  "transfers": [
+    {
+      "from": "paulista",
+      "to": "consolacao",
+      "walk_minutes": 5
+    }
+  ]
+}
